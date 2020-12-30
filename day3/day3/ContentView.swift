@@ -24,7 +24,7 @@ struct ContentView: View {
                     .padding()
                 TextField("الوزن بالكيلو جرام", text: $weight)
                     .padding()
-                Button ( action:{ bmi =  (Double (weight) ?? 0 ) / ( Double( hight ) ??  0) *  ((Double (hight) ?? 0 ))
+                Button ( action:{ bmi =  ((Double (weight) ?? 0 )) / (( Double( hight )) ??  0) *  ((Double (hight) ?? 0 ))
                 
                 }
                          , label: { Text("احسب")
